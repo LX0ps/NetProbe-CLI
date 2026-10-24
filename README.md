@@ -64,6 +64,10 @@ explain the command:
 **This tool is created strictly for educational purposes, defensive network administration, and authorized security testing (such as bug bounties or lab environments with explicit permission). Unauthorized scanning of targets you do not own or have explicit written authorization to test is illegal and violates terms of service. The author assumes no liability for misuse or damage caused by this program.**
 
 
+# Acknowledgements
+
+* Thanks to [VickyCantCode](https://github.com/VickyCantCode) for the inspiration on building this project!
+
 
 
 
