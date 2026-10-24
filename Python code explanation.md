@@ -1,16 +1,10 @@
 PYTHON CODE EXPLANATION FOR SCANNER.PY
 
 
-
-
-
 This is a network port scanner — it checks which ports (communication endpoints) on a computer are open and listening for connections. Think of ports like doors on a building: some are open and accepting visitors, some are locked. This tool checks which "doors" are open and tries to see what service is behind each one (like SSH, web servers, etc.).
 
 
-
-
-
-* parse\_ports() Function
+**parse\_ports() Function**
 
 
 
@@ -28,7 +22,7 @@ This function takes your port input and converts it into a list of ports to scan
 
 
 
-* grab\_banner() Function
+**grab\_banner() Function**
 
 
 
@@ -50,7 +44,7 @@ If nothing comes automatically, it sends an HTTP request to web ports (80, 443, 
 
 
 
-* scan\_port() Function
+**scan\_port() Function**
 
 
 
@@ -70,7 +64,7 @@ This is the core scanning function. It:
 
 
 
-* main() Function
+**main() Function**
 
 
 
@@ -94,7 +88,7 @@ Export JSON	Optionally saves results to a file
 
 
 
-USAGE EXP: 
+**USAGE EXAMPLE:**
 
 
 
@@ -102,7 +96,7 @@ python3 netprobe.py -t 192.168.1.1 -p 1-1024 -th 50
 
 
 
-Flag	Meaning
+**Flag	Meaning**
 
 \-t	Target IP or domain
 
