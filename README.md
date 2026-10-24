@@ -19,15 +19,13 @@ A high-performance, lightweight TCP network scanner built from scratch using pur
 ---
 
 ## Installation & Setup
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/LX0ps/
-   cd scanner.py
-   py scanner.py
+Clone the repository and run it with python: 
+- git clone https://github.com/LX0ps/NetProbe-CLI.git
+- cd NetProbe-CLI
+- py scanner.py 
 
 
-Verify Python Installation:
+**Verify Python Installation**:
 Requires Python 3.10+ (Tested on Windows 11 with Python 3.12.10). Install on windows via ms store or winget 
 check python version to have 3.10+. I tested on windows 11 with python 3.12.10
 
@@ -61,6 +59,9 @@ explain the command:
 
 
 
+
+🛡️ Ethical Disclaimer:
+**This tool is created strictly for educational purposes, defensive network administration, and authorized security testing (such as bug bounties or lab environments with explicit permission). Unauthorized scanning of targets you do not own or have explicit written authorization to test is illegal and violates terms of service. The author assumes no liability for misuse or damage caused by this program.**
 
 
 
