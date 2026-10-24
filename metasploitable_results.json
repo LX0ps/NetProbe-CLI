@@ -1,0 +1,77 @@
+{
+    "target": "192.168.56.101",
+    "target_ip": "192.168.56.101",
+    "scan_duration_seconds": 14.05,
+    "open_ports": [
+        {
+            "port": 22,
+            "status": "open",
+            "banner": "SSH-2.0-OpenSSH_4.7p1 Debian-8ubuntu1"
+        },
+        {
+            "port": 23,
+            "status": "open",
+            "banner": "\u0018 #'"
+        },
+        {
+            "port": 25,
+            "status": "open",
+            "banner": "220 metasploitable.localdomain ESMTP Postfix (Ubuntu)"
+        },
+        {
+            "port": 21,
+            "status": "open",
+            "banner": "220 (vsFTPd 2.3.4)"
+        },
+        {
+            "port": 53,
+            "status": "open",
+            "banner": "Open (Banner read timeout)"
+        },
+        {
+            "port": 80,
+            "status": "open",
+            "banner": "Open (Banner read timeout)"
+        },
+        {
+            "port": 139,
+            "status": "open",
+            "banner": "Open (Banner read timeout)"
+        },
+        {
+            "port": 111,
+            "status": "open",
+            "banner": "Open (Banner read timeout)"
+        },
+        {
+            "port": 514,
+            "status": "open",
+            "banner": "\u0001getnameinfo: Temporary failure in name resolution"
+        },
+        {
+            "port": 512,
+            "status": "open",
+            "banner": "\u0001Where are you?"
+        },
+        {
+            "port": 445,
+            "status": "open",
+            "banner": "Open (Banner read timeout)"
+        },
+        {
+            "port": 513,
+            "status": "open",
+            "banner": "Open (Banner read timeout)"
+        },
+        {
+            "port": 1099,
+            "status": "open",
+            "banner": "Open (Banner read timeout)"
+        },
+        {
+            "port": 1524,
+            "status": "open",
+            "banner": "root@metasploitable:/#"
+        }
+    ]
+}
