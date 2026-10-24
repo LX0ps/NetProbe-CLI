@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 NetProbe-CLI: A multi-threaded TCP port scanner with banner grabbing.
-Author: Cybersecurity Portfolio Project
+Author: John Georgakopoulos
 Disclaimer: For authorized educational and testing purposes only.
 """
 
